@@ -1,3 +1,3 @@
-''' Ta se su dung ham input de nhap du lieu vao 
-Vi du : input('Nguyen Van A' )'''
-input('Nguyen Van A')
+''' Ta sẽ sử dụng hàm input '''
+s=input("Vui lòng nhập tên: ")
+print("Tên của bạn là: ",s)
