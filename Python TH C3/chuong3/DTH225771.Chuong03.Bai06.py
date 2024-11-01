@@ -10,6 +10,8 @@ def doc_so(n):
         dv = n % 10
         if dv == 0:
             return hangchuc[chuc]
+    elif dv == 5:
+            return hangchuc[chuc] + " lăm"
         else:
             return hangchuc[chuc] + " " + hangdv[dv]
 
